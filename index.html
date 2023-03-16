@@ -17,71 +17,50 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 
-<body class="body">
-  <header class="header">
-    <div class="header-sintibref">
-      <a href="#menu-0">
-        <img src="./assets/images/Logo.svg" class="img-fluid" style="width: 280px" />
-      </a>
-      <div class="header-right">
-        <div>
+<body class="body row">
+  <header class="header row">
+    <div class="header-sintibref col-12">
+      <div class="col-12 col-xl-4 header-left">
+        <a href="#menu-0">
+          <img src="./assets/images/Logo.svg" class="img-fluid img-logo" />
+        </a>
+      </div>
+      <div class="col-12 col-xl-8 header-right">
+        <div class="col-12 div-logos">
           <img src="./assets/icons/Facebook.svg" class="img-fluid, social-networks" />
           <img src="./assets/icons/Instagram.svg" class="img-fluid, social-networks" />
           <img src="./assets/icons/YouTube.svg" class="img-fluid, social-networks" />
-        </div>  
-        <div class="search-box1">
-          <input placeholder="Pesquise" class="input-none"></input>
-          <img src="./assets/icons/search.png" class="img-fluid"></img>
+        </div>
+        <div class="col-12 div-box">
+          <div class="search-box1">
+            <input placeholder="Pesquise" class="input-none"></input>
+            <img src="./assets/icons/search.png" class="img-fluid"></img>
+          </div>
         </div>
       </div>
     </div>
-    <div class="menu">
+    <div class="menu col-12">
       <ul class="menu-content">
-        <li class="">
-          <a href="" class="menu-link">Institucional</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Benefícios</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Sincalize-se</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Notícias</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Artigos</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Assistência Jurídica</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Homologações</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Convenções</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Para Empregadores</a>
-        </li>
-        <li class="list">
-          <a href="" class="menu-link">Contato</a>
-        </li>
+        <li><a href="" class="menu-link">Institucional</a></li>
+        <li><a href="" class="menu-link">Benefícios</a></li>
+        <li><a href="" class="menu-link">Sincalize-se</a></li>
+        <li><a href="" class="menu-link">Notícias</a></li>
+        <li><a href="" class="menu-link">Artigos</a></li>
+        <li><a href="" class="menu-link">Assistência Jurídica</a></li>
+        <li><a href="" class="menu-link">Homologações</a></li>
+        <li><a href="" class="menu-link">Convenções</a></li>
+        <li><a href="" class="menu-link">Para Empregadores</a></li>
+        <li><a href="" class="menu-link">Contato</a></li>
       </ul>
     </div>
   </header>
 
-  <div id="carouselBanner" class="carousel carousel-dark slide" data-bs-ride="carousel" style="
-        margin-top: 204px;
-        min-width: 1440px;
-        box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 64px 64px;
-      ">
-    <div class="carousel-inner">
+  <div id="carouselBanner" class="carousel carousel-dark slide carousel-sinti row" data-bs-ride="carousel">
+    <div class="carousel-inner col-12 carousel-inner-sinti">
       <div class="carousel-item active" data-bs-interval="10000">
         <div class="banner1">
-          <div class="text-banner1">
-            <span style="font-size: 48px; color: #000000">
+          <div class="text-banner1 col-4">
+            <span class="text41">
               <strong>SINDICALIZAÇÃO:</strong></span>
             <span class="text40">Proteção do seu salário</span>
             <span class="text40">e benefícios</span>
@@ -91,17 +70,16 @@
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <div class="banner2">
-          <div class="text-banner2">
-            <span style="font-size: 48px; color: #ffffff">
+          <div class="text-banner2 col-6">
+            <span class="text42">
               <strong>Convenção coletiva <br />de trabalho 2022/204:</strong>
             </span>
-            <div class="divisor3"></div>
+            <div class="divisor4"></div>
             <button class="button-access">Clique para Acessar</button>
           </div>
         </div>
       </div>
     </div>
-
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -112,17 +90,13 @@
     </button>
   </div>
 
-  <div class="news">
-    <span><strong>Notícias</strong></span>
+  <div class="news col-12">
+    <span class="news-text"><strong>Notícias</strong></span>
     <div class="divisor1"></div>
-    <div class="news-container">
+    <div class="news-container col-12">
       <div class="news-cards">
-        <img src="./assets/images/News01.png" class="img-fluid" alt="News01" style="
-              height: 207px;
-              width: 270px;
-              border-radius: 30px 30px 0px 0px;
-            " />
-        <div style="width: 226px">
+        <img src="./assets/images/News01.png" class="img-fluid img-news " alt="News01" />
+        <div class="col-12 text-card">
           <div class="news-title">
             <span>
               <strong>Convenção Coletiva de Trabalho <br />2022/2024</strong>
@@ -132,162 +106,8 @@
             <span>Convenção coletiva de trabalho 2022/2024 já registrada.</span>
           </div>
           <div class="more-container">
-            <span style="margin-right: 10px"><strong>Ler mais</strong></span>
-            <img src="./assets/icons/Arrow.svg" class="img-fluid" alt="Arrow" style="height: 20px; width: 20px" />
-          </div>
-        </div>
-      </div>
-
-      <div class="news-cards">
-        <img src="./assets/images/News02.png" class="img-fluid" alt="News02" style="
-              height: 207px;
-              width: 270px;
-              border-radius: 30px 30px 0px 0px;
-            " />
-        <div style="width: 226px">
-          <div class="news-title">
-            <span>
-              <strong>Convenção Coletiva de Trabalho <br />2022/2024</strong>
-            </span>
-          </div>
-          <div class="news-body">
-            <span>Convenção coletiva de trabalho 2022/2024 já registrada.</span>
-          </div>
-          <div class="more-container">
-            <span style="margin-right: 10px"><strong>Ler mais</strong></span>
-            <img src="./assets/icons/Arrow.svg" class="img-fluid" alt="Arrow" style="height: 20px; width: 20px" />
-          </div>
-        </div>
-      </div>
-
-      <div class="news-cards">
-        <img src="./assets/images/News03.png" class="img-fluid" alt="News03" style="
-              height: 207px;
-              width: 270px;
-              border-radius: 30px 30px 0px 0px;
-            " />
-        <div style="width: 226px">
-          <div class="news-title">
-            <span>
-              <strong>Convenção Coletiva de Trabalho <br />2022/2024</strong>
-            </span>
-          </div>
-          <div class="news-body">
-            <span>Convenção coletiva de trabalho 2022/2024 já registrada.</span>
-          </div>
-          <div class="more-container">
-            <span style="margin-right: 10px"><strong>Ler mais</strong></span>
-            <img src="./assets/icons/Arrow.svg" class="img-fluid" alt="Arrow" style="height: 20px; width: 20px" />
-          </div>
-        </div>
-      </div>
-
-      <div class="news-cards">
-        <img src="./assets/images/News01.png" class="img-fluid" alt="News01" style="
-              height: 207px;
-              width: 270px;
-              border-radius: 30px 30px 0px 0px;
-            " />
-        <div style="width: 226px">
-          <div class="news-title">
-            <span>
-              <strong>Convenção Coletiva de Trabalho <br />2022/2024</strong>
-            </span>
-          </div>
-          <div class="news-body">
-            <span>Convenção coletiva de trabalho 2022/2024 já registrada.</span>
-          </div>
-          <div class="more-container">
-            <span style="margin-right: 10px"><strong>Ler mais</strong></span>
-            <img src="./assets/icons/Arrow.svg" class="img-fluid" alt="Arrow" style="height: 20px; width: 20px" />
-          </div>
-        </div>
-      </div>
-
-      <div class="news-cards">
-        <img src="./assets/images/News02.png" class="img-fluid" alt="News02" style="
-              height: 207px;
-              width: 270px;
-              border-radius: 30px 30px 0px 0px;
-            " />
-        <div style="width: 226px">
-          <div class="news-title">
-            <span>
-              <strong>Convenção Coletiva de Trabalho <br />2022/2024</strong>
-            </span>
-          </div>
-          <div class="news-body">
-            <span>Convenção coletiva de trabalho 2022/2024 já registrada.</span>
-          </div>
-          <div class="more-container">
-            <span style="margin-right: 10px"><strong>Ler mais</strong></span>
-            <img src="./assets/icons/Arrow.svg" class="img-fluid" alt="Arrow" style="height: 20px; width: 20px" />
-          </div>
-        </div>
-      </div>
-
-      <div class="news-cards">
-        <img src="./assets/images/News03.png" class="img-fluid" alt="News03" style="
-              height: 207px;
-              width: 270px;
-              border-radius: 30px 30px 0px 0px;
-            " />
-        <div style="width: 226px">
-          <div class="news-title">
-            <span>
-              <strong>Convenção Coletiva de Trabalho <br />2022/2024</strong>
-            </span>
-          </div>
-          <div class="news-body">
-            <span>Convenção coletiva de trabalho 2022/2024 já registrada.</span>
-          </div>
-          <div class="more-container">
-            <span style="margin-right: 10px"><strong>Ler mais</strong></span>
-            <img src="./assets/icons/Arrow.svg" class="img-fluid" alt="Arrow" style="height: 20px; width: 20px" />
-          </div>
-        </div>
-      </div>
-
-      <div class="news-cards">
-        <img src="./assets/images/News02.png" class="img-fluid" alt="News02" style="
-              height: 207px;
-              width: 270px;
-              border-radius: 30px 30px 0px 0px;
-            " />
-        <div style="width: 226px">
-          <div class="news-title">
-            <span>
-              <strong>Convenção Coletiva de Trabalho <br />2022/2024</strong>
-            </span>
-          </div>
-          <div class="news-body">
-            <span>Convenção coletiva de trabalho 2022/2024 já registrada.</span>
-          </div>
-          <div class="more-container">
-            <span style="margin-right: 10px"><strong>Ler mais</strong></span>
-            <img src="./assets/icons/Arrow.svg" class="img-fluid" alt="Arrow" style="height: 20px; width: 20px" />
-          </div>
-        </div>
-      </div>
-
-      <div class="news-cards">
-        <img src="./assets/images/News03.png" class="img-fluid" alt="News03" style="
-              height: 207px;
-              width: 270px;
-              border-radius: 30px 30px 0px 0px;
-            " />
-        <div style="width: 226px">
-          <div class="news-title">
-            <span>
-              <strong>Convenção Coletiva de Trabalho <br />2022/2024</strong>
-            </span>
-          </div>
-          <div class="news-body">
-            <span>Convenção coletiva de trabalho 2022/2024 já registrada.</span>
-          </div>
-          <div class="more-container">
-            <span style="margin-right: 10px"><strong>Ler mais</strong></span>
-            <img src="./assets/icons/Arrow.svg" class="img-fluid" alt="Arrow" style="height: 20px; width: 20px" />
+            <span><strong>Ler mais</strong></span>
+            <img src="./assets/icons/Arrow.svg" class="img-fluid ico-news" alt="Arrow" />
           </div>
         </div>
       </div>
@@ -295,86 +115,90 @@
     <button class="button-news">Veja Mais</button>
   </div>
 
-  <div class="services">
-    <span><strong>Serviços</strong></span>
-    <div class="divisor1"></div>
-    <div class="services-container">
-      <img src="./assets/images/Servicos.png" class="img-fluid" alt="banner03" style="height: 280px; width: 100%" />
-      <div class="cards-container">
-        <div class="services-cards">
-          <div class="circle">
-            <img src="./assets/icons/Peoples.svg" class="img-fluid" alt="Peoples" />
-          </div>
-          <span> <strong>Homologação</strong></span>
+  <div class="services row">
+    <div class="col-12 service-title">
+      <span><strong>Serviços</strong></span>
+      <div class="divisor3"></div>
+    </div>
+    <div class="col-12 banner3">
+      <span class="text-banner3"><strong>Sindicalize-se</strong></span>
+    </div>
+    <div class="col-12 cards-container">
+      <div class="services-cards">
+        <div class="circle">
+          <img src="./assets/icons/Peoples.svg" class="img-fluid" alt="Peoples" />
         </div>
-        <div class="services-cards">
-          <div class="circle">
-            <img src="./assets/icons/Hammer.svg" class="img-fluid" alt="Hammer" />
-          </div>
-          <span><strong>Asssistência</strong></span>
-          <span><strong>Jurídica</strong></span>
+        <span> <strong>Homologação</strong></span>
+      </div>
+      <div class="services-cards">
+        <div class="circle">
+          <img src="./assets/icons/Hammer.svg" class="img-fluid" alt="Hammer" />
         </div>
-        <div class="services-cards">
-          <div class="circle">
-            <img src="./assets/icons/Info.svg" class="img-fluid" alt="Info" />
-          </div>
-          <span> <strong>Guias</strong></span>
+        <span><strong>Asssistência</strong></span>
+        <span><strong>Jurídica</strong></span>
+      </div>
+      <div class="services-cards">
+        <div class="circle">
+          <img src="./assets/icons/Info.svg" class="img-fluid" alt="Info" />
         </div>
-        <div class="services-cards">
-          <div class="circle">
-            <img src="./assets/icons/Calendar.svg" class="img-fluid" alt="Calendar" />
-          </div>
-          <span><strong>Agenda</strong></span>
-          <span><strong>Sindical</strong></span>
+        <span> <strong>Guias</strong></span>
+      </div>
+      <div class="services-cards">
+        <div class="circle">
+          <img src="./assets/icons/Calendar.svg" class="img-fluid" alt="Calendar" />
         </div>
-        <div class="services-cards">
-          <div class="circle">
-            <img src="./assets/icons/Group.svg" class="img-fluid" alt="Group" />
-          </div>
-          <span><strong>Convenções</strong></span>
-          <span><strong>Coletivas</strong></span>
+        <span><strong>Agenda</strong></span>
+        <span><strong>Sindical</strong></span>
+      </div>
+      <div class="services-cards">
+        <div class="circle">
+          <img src="./assets/icons/Group.svg" class="img-fluid" alt="Group" />
         </div>
+        <span><strong>Convenções</strong></span>
+        <span><strong>Coletivas</strong></span>
       </div>
     </div>
   </div>
 
-  <div class="Partners">
-    <span><strong>Parceiros</strong></span>
-    <div class="divisor1"></div>
-    <div class="partners-container">
-      <img src="./assets/icons/Masterclin.svg" class="img-fluid" alt="Masterclin"
-        style="width: 195px; margin-right: 88px" />
-      <img src="./assets/icons/Odonto.svg" class="img-fluid" alt="Odontogroup"
-        style="width: 195px; margin-right: 88px" />
-      <img src="./assets/icons/Doutor.svg" class="img-fluid" alt="Doutor" style="width: 195px" />
+  <div class="row">
+    <div class="col-12 partners">
+      <span><strong>Parceiros</strong></span>
+      <div class="divisor1"></div>
+      <div class="col-12 partners-container">
+        <img src="./assets/icons/Masterclin.svg" class="img-fluid ico-partners ico-margin" alt="Masterclin" />
+        <img src="./assets/icons/Odonto.svg" class="img-fluid ico-partners ico-margin" alt="Odontogroup" />
+        <img src="./assets/icons/Doutor.svg" class="img-fluid ico-partners" alt="Doutor" />
+      </div>
     </div>
   </div>
 
-  <footer class="footer">
-    <div class="footer-container">
-      <img src="./assets/images/Logo.svg" class="img-fluid" alt="Logo" style="height: 59px; margin-right: 34px" />
-      <div>
-        <span class="text-footer">Institucional</span>
-        <span class="text-footer">Benefícios</span>
-        <span class="text-footer">Sindicalize-se</span>
-        <span class="text-footer">Notícias</span>
-        <span class="text-footer">Assistência Jurídica</span>
-        <span class="text-footer">homologação</span>
-        <span class="text-footer">Convenções</span>
-        <span class="text-footer">Para Empregadores</span>
-        <span class="text-footer">Contato</span>
+  <footer class="footer row">
+    <div class="footer-menu-container col-12">
+      <div class="col-12 col-xl-3 div-logo-footer">
+        <img src="./assets/images/Logo.svg" class="img-fluid img-logo-footer" alt="Logo" />
+      </div>
+      <div class="col-12 col-xl-9 menu-footer-content">
+        <ul class="menu-footer col-12">
+          <li><a href="" class="menu-link-footer">Institucional</a></li>
+          <li><a href="" class="menu-link-footer">Benefícios</a></li>
+          <li><a href="" class="menu-link-footer">Sindicalize-se</a></li>
+          <li><a href="" class="menu-link-footer">Notícias</a></li>
+          <li><a href="" class="menu-link-footer">Assistência Jurídica</a></li>
+          <li><a href="" class="menu-link-footer">homologação</a></li>
+          <li><a href="" class="menu-link-footer">Convenções</a></li>
+          <li><a href="" class="menu-link-footer">Para Empregadores</a></li>
+          <li><a href="" class="menu-link-footer">Contato</a></li>
+        </ul>
       </div>
     </div>
-    <div class="divisor2"></div>
-    <div class="footer-container">
-      <div class="footer-left">
+    <div class="col-12 footer-filiado">
+      <div class="col-12 col-xl-5 div-filiado">
         <span class="text-footer">Filiado à:</span>
-        <img src="./assets/icons/Nova.svg" class="img-fluid" alt="Nova" style="height: 70px; margin-right: 23px" />
-        <img src="./assets/icons/Fenati.svg" class="img-fluid" alt="Fenati" style="height: 70px; margin-right: 23px" />
-        <img src="./assets/icons/Contratum.svg" class="img-fluid" alt="Contratum"
-          style="height: 70px; margin-right: 23px" />
+        <img src="./assets/icons/Nova.svg" class="img-fluid ico-footer" alt="Nova" />
+        <img src="./assets/icons/Fenati.svg" class="img-fluid ico-footer" alt="Fenati" />
+        <img src="./assets/icons/Contratum.svg" class="img-fluid ico-footer" alt="Contratum" />
       </div>
-      <div class="search-div">
+      <div class="col-12 col-xl-7 footer-filiado-right">
         <span class="text-footer">Receba novidades pelo seu email</span>
         <div class="search-box2">
           <input placeholder="Digite seu email aqui" class="input-none"></input>
@@ -382,32 +206,33 @@
         </div>
       </div>
     </div>
-    <div class="divisor2"></div>
-    <div class="footer-container">
-      <div class="footer-left">
-        <img src="./assets/icons/Pin.svg" class="img-fluid" alt="Pin" style="height: 16px; margin-right: 10px" />
-        <span class="text-footer2">SDS Conic Bloco H, N° 26, Sala 602/603
-          <br />
-          Setor de Diversões Sul | CEP: 703939-00
-        </span>
+    <div class="col-12 footer-contact-container">
+      <div class="footer-contact col-xl-3">
+        <img src="./assets/icons/Pin.svg" class="img-fluid ico-contact" alt="Pin" />
+        <div class="div-text-footer">
+          <a href="" class="menu-link-footer2">SDS Conic Bloco H, N° 26, Sala 602/603 Setor de Diversões Sul | CEP:
+            703939-00 </a>
+        </div>
       </div>
-      <div>
-        <img src="./assets/icons/Phone.svg" class="img-fluid" alt="Phone" style="height: 12px; margin-right: 10px" />
-        <span class="text-footer2">613323-1639</span>
+      <div class="footer-contact col-xl-2">
+        <img src="./assets/icons/Phone.svg" class="img-fluid ico-contact" alt="Phone" />
+        <a href="" class="menu-link-footer2">613323-1639</a>
       </div>
-      <div>
-        <img src="./assets/icons/Whats.svg" class="img-fluid" alt="Whats" style="height: 12px; margin-right: 10px" />
-        <span class="text-footer2">6199854-9567</span>
+      <div class="footer-contact col-xl-2">
+        <img src="./assets/icons/Whats.svg" class="img-fluid ico-contact" alt="Whats" />
+        <a href="" class="menu-link-footer2">6199854-9567</a>
       </div>
-      <div>
-        <img src="./assets/icons/Email.svg" class="img-fluid" alt="Email" style="height: 12px; margin-right: 10px" />
-        <span class="text-footer2">atendimento@sintibrefdf.org.br</span>
+      <div class="footer-contact col-xl-3">
+        <img src="./assets/icons/Email.svg" class="img-fluid ico-contact" alt="Email" />
+        <a href="" class="menu-link-footer2">atendimento@sintibrefdf.org.br</a href="">
       </div>
     </div>
-    <div class="footer-container2">
-      <span class="text-footer2" style="margin-right: 30px">SINTIBREFDF</span>
-      <span class="text-footer2" style="margin-right: 30px">TODOS OS DIREITOS RESERVADOS</span>
-      <span class="text-footer2">POLÍTICA DE PRIVACIDADE</span>
+    <div class="col-12 footer-rodape">
+      <div class="col-12 col-xl-6  footer-rodape-text">
+        <a href="" class="menu-link-footer2">SINTIBREFDF</a href="">
+        <a href="" class="menu-link-footer2">TODOS OS DIREITOS RESERVADOS</a href="">
+        <a href="" class="menu-link-footer2">POLÍTICA DE PRIVACIDADE</a href="">
+      </div>
     </div>
   </footer>
 
